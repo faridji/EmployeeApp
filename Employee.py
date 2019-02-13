@@ -13,12 +13,3 @@ class Employee:
 
     def displayEmployee(self):
         print ("Name: ", self.name, " Salary: ", self.salary, " Age: ", self.age)
-
-
-if __name__ == '__main__':
-    employee = Employee('Yousaf', 50000)
-    employee.displayCount()
-    employee.displayEmployee()
-
-    employee.age = 7;
-    employee.displayEmployee()
